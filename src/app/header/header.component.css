@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 1%;
+}
+.logo-header {
+    width: 12%;
+}
+nav a {
+    margin: 0 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+nav a.active {
+    background-color: rgba(172, 71, 53, 1);
+    padding: 30px;
+  }
+.contacto {
+    background-color: rgba(148, 194, 33, 1);
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+
+}

@@ -1,0 +1,38 @@
+<header>
+  <img 
+    src="/assets/Mesa de trabajo 7ESCOMVER.png" 
+    class="logo-header" 
+    routerLink=""
+    (click)="setActiveClass($event)"
+  />
+  <nav>
+    <a 
+      routerLink="/sobre-nosotros" 
+      class="menu-item" 
+      (click)="setActiveClass($event)">
+      Sobre nosotros
+    </a>
+    <a 
+      routerLink="/productos" 
+      class="menu-item" 
+      (click)="setActiveClass($event)">
+      Productos
+    </a>
+    <a 
+      routerLink="/tolvago" 
+      class="menu-item" 
+      (click)="setActiveClass($event)">
+      TolvaGO
+    </a>
+    <a 
+      routerLink="/blog" 
+      class="menu-item" 
+      (click)="setActiveClass($event)">
+      Blog
+    </a>
+    <a>
+      <button class="contacto">Contáctanos</button>
+    </a>
+  </nav>  
+    
+</header>
